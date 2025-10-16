@@ -1,12 +1,59 @@
-# React + Vite
+# 🛒 React eCommerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive eCommerce web application built using **React**, **useState**, **FakeStore API**, and **React Router**. It includes product listing, navigation, and authentication pages such as **Login** and **Signup**, with styling applied via dedicated CSS files.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Fetches product data using **FakeStore API**
+- ✅ Uses **useState** for state management
+- ✅ Product listing rendered dynamically on **Home.jsx**
+- ✅ Styled with **Home.css** for responsive UI
+- ✅ **Login** and **Signup** pages implemented
+- ✅ **useNavigate** + **BrowserRouter** for smooth navigation
+- ✅ Clean and modular React component structure
+
+
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend Framework |
+| useState Hook | State Management |
+| FakeStore API | Product Data |
+| React Router (useNavigate) | Navigation & Routing |
+| CSS | Styling |
+
+
+
+## 📂 Folder Structure
+
+/src
+├── components/
+│ ├── Home.jsx
+│ ├── Login.jsx
+│ ├── Signup.jsx
+├── styles/
+│ ├── Home.css
+├── App.jsx
+
+
+## 🔧 Installation & Setup
+
+**Clone the project**
+
+git clone https://github.com/your-username/ecommerce-app.git
+
+Install dependencies: cd shopping-app
+
+Install dependencies: npm install
+
+Start the development server: npm start
+
+🌐 API Used
+
+This project uses FakeStore API for fetching product data:
+
+https://fakestoreapi.com/products
