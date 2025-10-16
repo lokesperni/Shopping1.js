@@ -44,7 +44,7 @@ A simple and responsive eCommerce web application built using **React**, **useSt
 
 **Clone the project**
 
-git clone https://github.com/your-username/ecommerce-app.git
+git clone: https://github.com/lokesperni/Shopping1.js
 
 Install dependencies: cd shopping-app
 
